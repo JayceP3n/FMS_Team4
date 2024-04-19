@@ -5,7 +5,7 @@
 
 > Click the link to play the game 
 
-## [Under The Sea Games](https://jaycep3n.github.io/FMS_Team4/){:target="_blank"}
+## [Under The Sea Games](https://jaycep3n.github.io/FMS_Team4/)
 
 <hr>
 
