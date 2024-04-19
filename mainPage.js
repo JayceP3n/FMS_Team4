@@ -1,6 +1,10 @@
 /**
  * Read [README.md](https://replit.com/@mnovlani/ExaltedDentalAngle) for updates (OUTDATED)
- * [REMINDER] There are some codes that are left for debug purposes
+ * [REMINDERS]
+ *   > There are some codes that are left for debug purposes
+ *
+ * [NOTICE]
+ *   > IF ANYONE SEES THIS, I HAVE CONNECTED MY GITHUB ACCOUNT TO THIS REPLIT TO BE HOSTED ON A WEBSITE
  */
 
 let fishes = []; // An array of fishes objects
