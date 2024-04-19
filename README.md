@@ -3,8 +3,9 @@
 ![](https://ih0.redbubble.net/image.5040859852.6664/raf,1000x350,075,t,fafafa:ca443f4786.jpg)
 **Welcome to the Majestic Project of _GROUP 4_ in p5.js.**
 
-Click the link to play the game 
-##[Under The Sea Games](https://jaycep3n.github.io/FMS_Team4/)
+> Click the link to play the game 
+
+## [Under The Sea Games](https://jaycep3n.github.io/FMS_Team4/)
 
 <hr>
 
