@@ -1,10 +1,12 @@
 /**
- * Read [README.md](https://replit.com/@mnovlani/ExaltedDentalAngle) for updates (OUTDATED)
- * [REMINDERS]
+ * Read the README.md file for updates
+ * 
+ * [!REMINDERS]
  *   > There are some codes that are left for debug purposes
  *
- * [NOTICE]
- *   > IF ANYONE SEES THIS, I HAVE CONNECTED MY GITHUB ACCOUNT TO THIS REPLIT TO BE HOSTED ON A WEBSITE
+ * [!NOTICE]
+ *   > IF ANYONE SEES THIS, I HAVE CONNECTED MY GITHUB ACCOUNT TO THIS REPLIT TO HOST A WEBSITE BUT ITS STILL WORK IN PROGRESS
+ *   > GO TO THIS LINK TO ACCESS THE GITHUB:      https://github.com/JayceP3n/FMS_Team4
  */
 
 let fishes = []; // An array of fishes objects
@@ -147,10 +149,12 @@ function displayButtons1() {
 function displayButtons() {
   let buttonWidth = windowWidth/4;
   let buttonHeight = windowHeight/6;
-  // let firstGame = "https://editor.p5js.org/lmconte/full/QiZCMrK2G";
-  let firstGame = "https://bdbd7bff-8635-45ac-8fc3-57633c6e20d5-00-24hd4tpq1ak9i.kirk.replit.dev/";
+  let firstGame = "https://editor.p5js.org/lmconte/full/QiZCMrK2G";
   let secondGame = "https://editor.p5js.org/gzahn1/full/9SJPXmoWl";
   let thirdGame = "https://editor.p5js.org/rpchuri/full/tMPzdLlTO";
+
+  // This is a test code
+  // let firstGame = "https://bdbd7bff-8635-45ac-8fc3-57633c6e20d5-00-24hd4tpq1ak9i.kirk.replit.dev/";
   
   firstBtn.size(buttonWidth, buttonHeight);
   firstBtn.position(width/2-firstBtn.width/2, height/2-firstBtn.height/2);
