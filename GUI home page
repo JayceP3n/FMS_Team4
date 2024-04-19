@@ -1,0 +1,58 @@
+let currentPage = 1; // Current page: 1 for homepage, 2 for games
+
+function setup() {
+  createCanvas(600, 400);
+  textAlign(CENTER, CENTER);
+  textSize(18);
+}
+
+function draw() {
+  if (currentPage === 1) {
+    displayHomePage();
+  } else if (currentPage === 2) {
+    displayGamePage();
+  }
+}
+
+function displayHomePage() {
+  background(0, 102, 204);
+  fill(255);
+  text("Under the Sea Games", width / 2, height / 4);
+  drawButton(width / 2, height / 2 - 70, "Ultimate Tic Tac Twist", 2);
+  drawButton(width / 2, height / 2, "Koi Fish Pond Feeding Frenzy", 2);
+  drawButton(width / 2, height / 2 + 70, "Under the Sea Crossword", 2);
+}
+
+function displayGamePage() {
+  background(0, 102, 204);
+  fill(255);
+  text("Game Page", width / 2, height / 4);
+  drawButton(width - 100, height - 50, "Back", 1);
+}
+
+function drawButton(x, y, label, targetPage) {
+  let buttonWidth = textWidth(label) + 30;
+  let buttonHeight = 40;
+
+  fill(255);
+  rectMode(CENTER);
+  rect(x, y, buttonWidth, buttonHeight, 10);
+  fill(0);
+  text(label, x, y);
+
+  if (
+    mouseX > x - buttonWidth / 2 &&
+    mouseX < x + buttonWidth / 2 &&
+    mouseY > y - buttonHeight / 2 &&
+    mouseY < y + buttonHeight / 2 &&
+    mouseIsPressed
+  ) {
+    currentPage = targetPage;
+  }
+}
+
+function mouseClicked() {
+  if (currentPage === 2 && mouseX > width - 150 && mouseY > height - 75) {
+    currentPage = 1;
+  }
+}
